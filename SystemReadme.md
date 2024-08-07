@@ -17,6 +17,8 @@ A Gameboard System Idea
       |    |----------
       |    |    |boot up guidance(loading)
       |    |    |----------
+      |    |    |    |Run cursor flashing 
+      |    |    |    |Building a file system (system go show ui)
       |    |    |    |User store files （Normally accessible）
       |    |    |    |
       |    |    |    
