@@ -25,3 +25,6 @@ A Gameboard System Idea </br>
       |    |
       |
       |
+
+*Power-on Self-Test 硬件自检
+     
