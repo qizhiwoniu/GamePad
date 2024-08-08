@@ -26,5 +26,5 @@ A Gameboard System Idea </br>
       |
       |
 
-*Power-on Self-Test 硬件自检
+*Power-on Self-Test 硬件自检 </br>
 *1.检查RAM 2.检查I/O端口 3.检查系统时钟 4.检查EEPROM
