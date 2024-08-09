@@ -32,8 +32,12 @@ A Gameboard System Idea </br>
 
 *LCD 1.44寸 1.8寸 </br>
 *摄像头 </br>
-*LED </br>
+*呼吸LED </br>
+*micro usb </br>
+*5V锂电池 </br>
+*重力感应芯片 </br>
 
 *STM32F103C8T6 </br>
 A10 TXD </br>
 A9 RXD </br>
+
