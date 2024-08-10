@@ -1,6 +1,9 @@
 2024.08.07 21:15 </br>
 A Gameboard System Idea </br>
 
+          YuOS
+    power by Qizhiwoniu
+
     time run
     ----------timeline
       |boot
