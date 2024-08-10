@@ -39,6 +39,7 @@ A Gameboard System Idea </br>
 *重力感应芯片 </br>
 
 *STM32F103C8T6 </br>
+*AP6212 备ESP8266</br>
 A10 TXD </br>
 A9 RXD </br>
 
