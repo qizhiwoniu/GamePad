@@ -45,4 +45,4 @@ A Gameboard System Idea </br>
 *AP6212 备ESP8266</br>
 A10 TXD </br>
 A9 RXD </br>
-
+stm32f103c8t6怎么通过mini-USB烧录?</br>
