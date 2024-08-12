@@ -2,7 +2,8 @@
 A Gameboard System Idea </br>
 
           YuOS
-    power by Qizhiwoniu
+       -power by- 
+       Qizhiwoniu
 
     time run
     ----------timeline
