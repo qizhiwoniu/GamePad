@@ -36,7 +36,10 @@ Software Description:</br>
 *多按键处理：支持多个按钮同时按下（如方向键的组合），确保在快速按键情况下，系统能准确检测到按键组合。</br>
 ## Hardware </br>
 [Hardware Self Description](https://github.com/qizhiwoniu/GamePad/blob/idea/Hardware%20Readme.md)
-
+●震动调节
+●电源开关
+●灯效开关
+●TURBO按钮CLEAR按钮AUTO按钮start按钮select按钮
 ## Contributing Users </br>
 【Qizhiwoniu】</br>
 【】</br>
