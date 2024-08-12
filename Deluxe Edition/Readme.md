@@ -1,4 +1,6 @@
 readme</br>
+●model:</br>
+●
 ##
 ●主机 host machine</br>
 ●底座 pedestal</br>
