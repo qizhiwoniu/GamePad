@@ -10,7 +10,7 @@ Global：</br>
     time run
     ----------timeline
       |System Start
-      |---------System Language Select
+      |----------System Language Select
       |    |繁体中文
       |    |English    
       |    |日本語
@@ -18,12 +18,12 @@ Global：</br>
       |    |Français
       |    |Deutsch
       |    |
-      |    |--------
-      |    |   |Switch language configuration file
-      |    |   |切换语言配置文件
+      |    |----------
+      |    |    |Switch language configuration file
+      |    |    |切换语言配置文件
       |    |    
       |
-      |--------Show Main UI
+      |----------Show Main UI
       |    |定义语言和地区 Define language and region
       |    |----------在设置中允许用户切换地区 Allow users to switch regions in the settings
       |    |    |
@@ -35,6 +35,8 @@ Global：</br>
       |    |    |每次切换地区,启动Wifi,同步时间 Every time you switch regions, start WiFi and synchronize time
       |    |    |
       |    |
+      |
+      |----------Keep the secondary UI running
       |
       |
 
