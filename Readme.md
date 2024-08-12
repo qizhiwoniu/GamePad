@@ -35,7 +35,7 @@ Software Description:</br>
 *1.检查RAM 2.检查I/O端口 3.检查系统时钟 4.检查EEPROM </br>
 *多按键处理：支持多个按钮同时按下（如方向键的组合），确保在快速按键情况下，系统能准确检测到按键组合。</br>
 ## Hardware </br>
-[Hardware Self Description](https://github.com/qizhiwoniu/GamePad/blob/idea/Hardware%20Readme.md)
+[Hardware Self Description](https://github.com/qizhiwoniu/GamePad/blob/idea/Hardware%20Readme.md)</br>
 ●震动调节</br>
 ●电源开关</br>
 ●灯效开关</br>
