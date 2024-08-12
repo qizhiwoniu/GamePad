@@ -47,7 +47,7 @@ Software Description:</br>
 欢迎参与项目贡献！Welcome to contribute to the project!</br>
 ## contact information </br>
 13yupeng@gmail.com </br>
-## License / 三包凭证 </br>
+## License / Three guarantee certificate 三包凭证 </br>
 Copyright (C) 2023-2025 LiaoNing Yu Peng. All rights reserved.</br>
 Portions Copyright (C) 2000-2025 LiaoNing Yu Peng. All rights reserved.</br>
 
@@ -64,6 +64,7 @@ Portions Copyright (C) 2000-2025 LiaoNing Yu Peng. All rights reserved.</br>
 4. Modified versions in source or binary form must be plainly marked as such, and must not be
    misrepresented as being the original software.
 
+●Within 7 days, except for refunds, exchanges, repairs, and unlocking for flashing the device</br>
 ●7天内，包退，包换，包修，解锁刷机的除外</br>
 
 
