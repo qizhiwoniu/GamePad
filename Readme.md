@@ -46,3 +46,11 @@ A Gameboard System Idea </br>
 A10 TXD </br>
 A9 RXD </br>
 stm32f103c8t6怎么通过mini-USB烧录?</br>
+
+● 主控：ESP32-S3-WROOM-1 （N8R2; Flash:4MBytes,RAM:2MBytes）支持WiFi/BLE
+● 1 x LED ● 11 x 按键（1个复位键+10个功能键）
+● 2 x 摇杆（360度带确认键）
+● 1 x 1.54寸显示屏（240x240）
+● 1 x UART/I2C接口（XH-1.25MM-4P）
+● 1 x 锂电池（3.7V 1200mAh），板载充电电路 ● 1 x TPYE-C（下载/REPL调试/供电）
+● 1 x 拨码开关
