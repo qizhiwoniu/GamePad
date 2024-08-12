@@ -37,8 +37,9 @@ Software Description:</br>
 ## Hardware </br>
 [Hardware Self Description](https://github.com/qizhiwoniu/GamePad/blob/idea/Hardware%20Readme.md)</br>
 ●震动调节</br>
+●灯光调节</br>
+●声音调节</br>
 ●电源开关</br>
-●灯效开关</br>
 ●TURBO按钮CLEAR按钮AUTO按钮start按钮select按钮</br>
 ## Contributing Users </br>
 【Qizhiwoniu】</br>
