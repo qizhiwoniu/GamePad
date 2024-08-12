@@ -1,5 +1,4 @@
-2024.08.07 21:15 </br>
-A Gameboard System Idea </br>
+2024.08.07 21:15 A Gameboard System Idea </br>
 ## Software </br>
 Software Description:</br>
 
