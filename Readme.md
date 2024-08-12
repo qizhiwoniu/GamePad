@@ -38,10 +38,11 @@ Software Description:</br>
 [Hardware Self Description](https://github.com/qizhiwoniu/GamePad/blob/idea/Hardware%20Readme.md)
 
 ## 贡献用户 Contributing Users </br>
-
-欢迎参与项目贡献！Welcome to contribute to the project!
+【Qizhiwoniu】</br>
+【】</br>
+欢迎参与项目贡献！Welcome to contribute to the project!</br>
 ## 联系方式 contact information </br>
-13yupeng@gmail.com
+13yupeng@gmail.com </br>
 ## License </br>
 Copyright (C) 2023-2025 LiaoNing Yu Peng. All rights reserved.</br>
 Portions Copyright (C) 2000-2025 LiaoNing Yu Peng. All rights reserved.</br>
