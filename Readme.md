@@ -7,7 +7,7 @@ Temporary Code Storage</br>
 Foreign version of the literary inquisition</br>
 Watchdog Program</br>
 Morse code</br>
-
+Esperanto</br>
         A                    N                    1
         B                    O                    2
         C                    P                    3
