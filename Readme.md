@@ -37,6 +37,8 @@ Esperanto</br>
         |27*3=81 crystal oscillators 27*2=54 signals Double the speed
         |AC frequency=50hz-60hz if 1s=54hz 
         |Does it mean that a 27 digit password only takes 1 second to traverse
+
+        .-.. --- ...- . 
 ##        
         _________________________
         |RGB 256                |
