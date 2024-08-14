@@ -1,5 +1,6 @@
 # GamePad
-游戏手柄测试程序
+游戏手柄测试程序</br>
+PC:</br>
 
 ![屏幕截图 2024-07-11 213650](https://github.com/qizhoward/GamePad/assets/12931603/8e6d2818-b9f5-405f-8ab7-f77318faf1b9)</br>
 
