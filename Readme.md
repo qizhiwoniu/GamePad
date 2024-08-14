@@ -37,8 +37,52 @@ Esperanto</br>
         |27*3=81 crystal oscillators 27*2=54 signals Double the speed
         |AC frequency=50hz-60hz if 1s=54hz 
         |Does it mean that a 27 digit password only takes 1 second to traverse
-
-        .-.. --- ...- . 
+                                          A 
+                                         A
+                                        AB                                                                    |——|     1A
+                                       ACD                                                                    |  |     6F
+                                       F E                                                                    |  |     7G
+        AAAAAAAAAAAAAAAAAAAAAAAAAAA   AG H      1   2    3      4       5                     |——|     1A     |  |    19S
+        honorificabilitudinitatibus   M JIK    AM FGST CJNOW BDEHILQ KMPRXYZ                  |  |      M     |  |    20T
+        ZZZZZZZZZZZZZZZZZZZZZZZZZZZ   ZSNLM     1   4    5      7       6      VCC signal-----|  |-----0Z-----|  |-----0Z--
+                                          P     3   6    7      9       8
+                                        OQR     3   6    8     13      13
+                                       TWZX
+                                       ZZ Y
+                                          Z
+                                      36798
+                                      14576
+                                      
+                                  .-.. --- ...- . 
+dichotomization Take small,Double the speed</br>
+~~ZhA~~</br>
+~~ZoA~~</br>
+~~ZnA~~</br>
+~~ZoA~~</br>
+~~ZrA~~</br>
+~~ZiA~~</br>
+~~ZfA~~</br>
+~~ZiA~~</br>
+~~ZcA~~</br>
+~~ZaA~~</br>
+~~ZbA~~</br>
+~~ZiA~~</br>
+~~ZlA~~</br>
+~~ZiA~~</br>
+~~ZtA~~</br>
+~~ZuA~~</br>
+~~ZdA~~</br>
+~~ZiA~~</br>
+~~ZnA~~</br>
+~~ZiA~~</br>
+~~ZtA~~</br>
+~~ZaA~~</br>
+~~ZtA~~</br>
+~~ZiA~~</br>
+~~ZbA~~</br>
+~~ZuA~~</br>
+~~ZsA~~</br>
+         
 ##        
         _________________________
         |RGB 256                |
