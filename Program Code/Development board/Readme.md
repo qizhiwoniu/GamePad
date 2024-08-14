@@ -10,7 +10,7 @@ Global：</br>
     time run
     ----------timeline
       |System Start
-      |----------System Language Select
+     *|----------System Language Select <National version remove>
       |    |繁体中文
       |    |English    
       |    |日本語
@@ -23,7 +23,7 @@ Global：</br>
       |    |    |切换语言配置文件
       |    |    
       |
-      |----------Show Main UI
+     1|----------Show Main UI
       |    |定义语言和地区 Define language and region
       |    |----------在设置中允许用户切换地区 Allow users to switch regions in the settings
       |    |    |
@@ -36,7 +36,7 @@ Global：</br>
       |    |    |
       |    |
       |
-      |----------Keep the secondary UI running
+     2|----------Keep the secondary UI running
       |
       |
 
