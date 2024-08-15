@@ -91,3 +91,18 @@ dichotomization Take small,Double the speed</br>
         soldier soldier soldier soldier soldier soldier soldier soldier
 
         International Chess has no cannon.
+
+##
+        数字遍历
+        📞123456789X 0-9 12🔎
+        --------------------  3
+          0000000000         201    1  2   3    4
+        🔎123456789X        4       4  27 3058 169
+          9999999999         756    
+        --------------------  89     42730 58169
+                                       0     1
+           45Page🔎*10                🔎    16+29🔎
+                                    🔎🔎🔎   45🔎
+                                       
+        ID card                        
+        🆔18                     
