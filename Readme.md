@@ -93,7 +93,7 @@ dichotomization Take small,Double the speed</br>
         International Chess has no cannon.
 
 ##
-        数字遍历
+        Numerical traversal
         📞123456789X 0-9 12🔎
         --------------------  3
           0000000000         201    1  2   3    4
