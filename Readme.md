@@ -39,20 +39,27 @@ Esperanto</br>
         |Does it mean that a 27 digit password only takes 1 second to traverse
                                           A 
                                          A
-                                        AB                                                                    |——|     1A
-                                       ACD                                                                    |  |     6F
-                                       F E                                                                    |  |     7G
-        AAAAAAAAAAAAAAAAAAAAAAAAAAA   AG H      1   2    3      4       5                     |——|     1A     |  |    19S
-        honorificabilitudinitatibus   M JIK    AM FGST CJNOW BDEHILQ KMPRXYZ                  |  |      M     |  |    20T
-        ZZZZZZZZZZZZZZZZZZZZZZZZZZZ   ZSNLM     1   4    5      7       6      VCC signal-----|  |-----0Z-----|  |-----0Z--
-                                          P     3   6    7      9       8
-                                        OQR     3   6    8     13      13
-                                       TWZX
-                                       ZZ Y
-                                          Z
-                                      36798
-                                      14576
-                                      
+                                        AB                                                                    
+                                       ACD                                                                    
+                                       F E                                                                    
+        AAAAAAAAAAAAAAAAAAAAAAAAAAA   AG H      1   2    3       4       5                     
+        honorificabilitudinitatibus   M JIK    AM FGST CJNOW BDEHILQUV KPRXYZ                  
+        ZZZZZZZZZZZZZZZZZZZZZZZZZZZ   ZSNL      1   4    5       7       5      
+                                          P     3   6    7      11       7
+                                        OQR     2   6    8      11      10
+                                       TWUX
+                                       ZZVY                            |——|     1A
+                                         ZZ                            |  |     2B 
+                                      367117                           |  |     4D      
+                                      14595                            |  |     5E        
+                                                       |——|     1A     |  |     8H     |——|     1A
+                                       |——|     1A     |  |     3C     |  |     9I     |  |    11K
+                                       |  |     6F     |  |    10J     |  |    12L     |  |    16P
+                                       |  |     7G     |  |    14N     |  |    17Q     |  |    18R
+                       |——|     1A     |  |    19S     |  |    15O     |  |    21U     |  |    24X
+                       |  |    13M     |  |    20T     |  |    23W     |  |    22V     |  |    25Y
+        VCC signal-----|  |-----0Z-----|  |-----0Z-----|  |-----0Z-----|  |-----0Z-----|  |-----0Z-----
+        
                                   .-.. --- ...- . 
 dichotomization Take small,Double the speed</br>
 ~~ZhA~~</br>
@@ -60,28 +67,7 @@ dichotomization Take small,Double the speed</br>
 ~~ZnA~~</br>
 ~~ZoA~~</br>
 ~~ZrA~~</br>
-~~ZiA~~</br>
-~~ZfA~~</br>
-~~ZiA~~</br>
-~~ZcA~~</br>
-~~ZaA~~</br>
-~~ZbA~~</br>
-~~ZiA~~</br>
-~~ZlA~~</br>
-~~ZiA~~</br>
-~~ZtA~~</br>
-~~ZuA~~</br>
-~~ZdA~~</br>
-~~ZiA~~</br>
-~~ZnA~~</br>
-~~ZiA~~</br>
-~~ZtA~~</br>
-~~ZaA~~</br>
-~~ZtA~~</br>
-~~ZiA~~</br>
-~~ZbA~~</br>
-~~ZuA~~</br>
-~~ZsA~~</br>
+
          
 ##        
         _________________________
@@ -94,6 +80,12 @@ dichotomization Take small,Double the speed</br>
         车马象士将士象马车            车马象王后象马车
           炮         炮              卒卒卒卒卒卒卒卒   
         卒  卒  卒  卒  卒     
+
+        vehicle horse elephant king queen elephant horse vehicle 
+        soldier soldier soldier soldier soldier soldier soldier soldier
+
+        International Chess has no cannon.
+
 
         vehicle horse elephant king queen elephant horse vehicle 
         soldier soldier soldier soldier soldier soldier soldier soldier
