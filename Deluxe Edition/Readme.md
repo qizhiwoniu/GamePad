@@ -1,6 +1,5 @@
 readme</br>
 ●model:First Version</br>
-●                    </br>
 ##
 ●主机 host machine</br>
 ●底座 pedestal</br>
@@ -10,4 +9,5 @@ readme</br>
 ●使用说明书 user's manual</br>
 ●装箱清单 Packing list</br>
 ![首个版本](https://github.com/qizhiwoniu/GamePad/blob/idea/Deluxe%20Edition/gamepad.png)</br>
-
+●model:second Version</br>
+●                    </br>
