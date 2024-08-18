@@ -32,3 +32,4 @@ Fold Green hat </br>
         religiöse Überzeugungen
         Kindergarten,
         Ich meine wie ein Kind, sie denkt, ich liebe es auch, es anzusehen
+        私の意味は、子供のように、彼女は私も見るのが好きだと思っています
