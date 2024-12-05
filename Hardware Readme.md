@@ -21,3 +21,23 @@ A9 RXD </br>
 ● 主控：ESP32-S3-WROOM-1 （N8R2; Flash:4MBytes,RAM:2MBytes）支持WiFi/BLE (蓝牙和wifi的共存问题)</br>
 * 1 x UART/I2C接口（XH-1.25MM-4P）</br>
 * 1 x 拨码开关 </br>
+###
+chatgpt推荐：</br>
+入门级手柄：</br>
+MCU：STM32F103 或 RP2040</br>
+通信：无</br>
+传感器：无</br>
+振动：DRV8833</br>
+电源管理：TP4056</br>
+中高端手柄：</br>
+MCU：STM32F411 或 nRF52840</br>
+通信：nRF52840（蓝牙）或 ESP32（蓝牙+Wi-Fi）</br>
+传感器：MPU-6050 或 BMI160</br>
+振动：DRV2605</br>
+电源管理：BQ24074</br>
+高端手柄（支持所有功能）：</br>
+MCU：STM32H7 或 ESP32-S3</br>
+通信：nRF52840</br>
+传感器：MPU-9250 或 BMI270</br>
+振动：DRV2605</br>
+电源管理：BQ24074 + AP2112</br>
