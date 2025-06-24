@@ -1,0 +1,50 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="YuOS UI Demo"
+config/version="0.0.0.1"
+run/main_scene="res://Home.tscn"
+config/features=PackedStringArray("4.4")
+boot_splash/image="res://Assets/Images/Splashes/10750360.png"
+config/icon="uid://bgjakbwdmfmpr"
+config/windows_native_icon="res://Assets/Images/Icons/NX-16x16.ico"
+
+[autoload]
+
+Cursor="*res://addons/awesome_custom_cursor/Autoloads/Cursor.tscn"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/fullscreen=true
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/awesome_custom_cursor/plugin.cfg")
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+pointing/emulate_mouse_from_touch=false
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/defaults/default_environment="res://default_env.tres"

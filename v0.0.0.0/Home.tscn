@@ -1,0 +1,570 @@
+[gd_scene load_steps=86 format=3 uid="uid://p2p6iub68msx"]
+
+[ext_resource type="FontFile" path="res://Assets/Themes/ProfileIcon.tres" id="1"]
+[ext_resource type="Script" uid="uid://b74jefn0fbssw" path="res://Assets/Scripts/Home Menu.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://cq5qysi6h1e7y" path="res://Assets/Images/HomeMenu/SoftwareIcons/YouTube-3-Frame-1.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://df7le77n1h0no" path="res://Assets/Images/HomeMenu/HeaderIcons/YuOS-Icon.png" id="3_30epc"]
+[ext_resource type="Texture2D" uid="uid://cra8xyw4ber3x" path="res://Assets/Images/HomeMenu/HeaderIcons/YuOS-Icon-Frame-1.png" id="4_i81ca"]
+[ext_resource type="Texture2D" uid="uid://cpiayn34o2y7m" path="res://Assets/Images/HomeMenu/HeaderIcons/YuOS-Icon-Frame-2.png" id="5_q4pag"]
+[ext_resource type="Texture2D" uid="uid://dduamvwdakm7q" path="res://Assets/Images/HomeMenu/NavigationBarIcons/nintendo-eshop-dm-Frame-2.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://djyb35fb8dulo" path="res://Assets/Images/HomeMenu/SoftwareIcons/YouTube-3-Frame-2.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://787chv3on7es" path="res://Assets/Images/HomeMenu/NavigationBarIcons/nintendo-eshop-dm-Frame-1.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dfh8xrt7k3quc" path="res://Assets/Images/HomeMenu/NavigationBarIcons/album-dm-Frame-2.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dssy4eyesx8oa" path="res://Assets/Images/HomeMenu/SoftwareIcons/Splatoon-3.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://b13v5nwseu585" path="res://Assets/Images/HomeMenu/NavigationBarIcons/nintendo-eshop-dm.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://1v5hi05nugg2" path="res://Assets/Images/HomeMenu/NavigationBarIcons/controllers-dm-Frame-1.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bg7v60tpotsg" path="res://Assets/Images/HomeMenu/NavigationBarIcons/system-settings-dm-Frame-2.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://chorog4bdckqo" path="res://Assets/Images/HomeMenu/SoftwareIcons/Splatoon-2-Frame-1.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://caue7mmglquq5" path="res://Assets/Images/HomeMenu/NavigationBarIcons/controllers-dm.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://di7ghoaolbl1w" path="res://Assets/Images/HomeMenu/SoftwareIcons/Rocket-League-S9-Frame-2.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://b84wu08b87m7a" path="res://Assets/Images/HomeMenu/NavigationBarIcons/controllers-dm-Frame-2.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://ki5fpu0vhhfd" path="res://Assets/Images/HomeMenu/NavigationBarIcons/sleep-mode-dm.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://b5x4bkffrh1l5" path="res://Assets/Images/HomeMenu/FooterIcons/handheld-mode-dm.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://bgjrsl8m2l5bt" path="res://Assets/Images/HomeMenu/SoftwareIcons/Wreckfest-Frame-1.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://03kn32wqegwq" path="res://Assets/Images/HomeMenu/SoftwareIcons/Wreckfest-Frame-2.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://c8psd3jbv26tw" path="res://Assets/Images/HomeMenu/SoftwareIcons/Rogue-Company.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://sx6ucfhihm6" path="res://Assets/Images/HomeMenu/SoftwareIcons/Rogue-Company-Frame-2.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://utmgtlpoud6k" path="res://Assets/Images/HomeMenu/NavigationBarIcons/system-settings-dm.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://dfhx1l1wpmpfu" path="res://Assets/Images/HomeMenu/NavigationBarIcons/sleep-mode-dm-Frame-2.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://b2cw0sha1ft5q" path="res://Assets/Images/HomeMenu/NavigationBarIcons/system-settings-dm-Frame-1.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://drslf0sucxdef" path="res://Assets/Images/HomeMenu/NavigationBarIcons/album-dm-Frame-1.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://btsk3pweicrvu" path="res://Assets/Images/HomeMenu/NavigationBarIcons/sleep-mode-dm-Frame-1.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://mfeyj0b1g2fj" path="res://Assets/Images/HomeMenu/NavigationBarIcons/album-dm.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://cxe4vn8sgy2jq" path="res://Assets/Images/HomeMenu/SoftwareIcons/Wreckfest.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://dxxc31wj8psr5" path="res://Assets/Images/HomeMenu/SoftwareIcons/Rogue-Company-Frame-1.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://ci2k7jlkaugju" path="res://Assets/Images/HomeMenu/SoftwareIcons/Sonic-Frontiers.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://gmonoqb6pj4n" path="res://Assets/Images/HomeMenu/SoftwareIcons/Rocket-League-S9-Frame-1.png" id="37"]
+[ext_resource type="Theme" uid="uid://cputhfx6q21fb" path="res://Assets/Themes/Footer.tres" id="38"]
+[ext_resource type="AudioStream" uid="uid://d0q8x2fivy7vg" path="res://Assets/Sounds/Launch Menu.wav" id="39"]
+[ext_resource type="AudioStream" uid="uid://drjghdm5vkeva" path="res://Assets/Sounds/Select User.wav" id="40"]
+[ext_resource type="AudioStream" uid="uid://bmvu7e81wohp1" path="res://Assets/Sounds/standby.wav" id="41"]
+[ext_resource type="Texture2D" uid="uid://6n2432h05kui" path="res://Assets/Images/HomeMenu/NavigationBarIcons/filesystem-dm-Frame-1.png" id="41_2wym6"]
+[ext_resource type="Texture2D" uid="uid://dkt1mdav6s5k6" path="res://Assets/Images/HomeMenu/NavigationBarIcons/filesystem-dm.png" id="41_slpvv"]
+[ext_resource type="AudioStream" uid="uid://cyokur0t1fmp6" path="res://Assets/Sounds/Move Selector.wav" id="42"]
+[ext_resource type="Texture2D" uid="uid://gkd6t88gi7f5" path="res://Assets/Images/HomeMenu/NavigationBarIcons/filesystem-dm-Frame-2.png" id="42_slpvv"]
+[ext_resource type="FontFile" uid="uid://ckmhma0j6q5g8" path="res://Assets/Fonts/NINTENDOSWITCHUI.TTF" id="43"]
+[ext_resource type="Texture2D" uid="uid://ds0u1dsid58gm" path="res://Assets/Images/HomeMenu/SoftwareIcons/YouTube-3.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://cfn3soaltjnqc" path="res://Assets/Images/HomeMenu/SoftwareIcons/Splatoon-3-Frame-1.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://cai0da1cxj7td" path="res://Assets/Images/HomeMenu/SoftwareIcons/Rocket-League-S9.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://vbl7lqbh7i0n" path="res://Assets/Images/HomeMenu/SoftwareIcons/Sonic-Frontiers-Frame-2.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://bkclh8kn8qj32" path="res://Assets/Images/HomeMenu/HeaderIcons/battery-dm.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://dbtq20fvomq18" path="res://Assets/Images/HomeMenu/HeaderIcons/wifi-dm.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://bwi5hplfhx730" path="res://Assets/Images/HomeMenu/SoftwareIcons/Fortnite-New-Begining-Frame-2.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://dldlnybwtte03" path="res://Assets/Images/HomeMenu/SoftwareIcons/Sonic-Frontiers-Frame-1.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://xqur3bm06wd5" path="res://Assets/Images/HomeMenu/SoftwareIcons/Fortnite-New-Begining.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://c8mebpgiv6ih4" path="res://Assets/Images/HomeMenu/SoftwareIcons/Splatoon-3-Frame-2.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://dm8sspeuftagd" path="res://Assets/Images/HomeMenu/SoftwareIcons/Splatoon-2-Frame-2.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://k2p2gn51r4lb" path="res://Assets/Images/HomeMenu/SoftwareIcons/Fortnite-New-Begining-Frame-1.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://boruwmuudqgjh" path="res://Assets/Images/HomeMenu/SoftwareIcons/Splatoon-2.png" id="58"]
+[ext_resource type="StyleBox" path="res://Assets/Themes/DarkPanelTheme.tres" id="60"]
+[ext_resource type="AudioStream" uid="uid://b1c8udt5mg646" path="res://Assets/Sounds/user.wav" id="61"]
+[ext_resource type="Texture2D" uid="uid://b20rhfc7xi726" path="res://Assets/Images/System/SleepModeButton.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://ce34b6sxrl4a" path="res://Assets/Images/System/BackButtonFrame1.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://ct37etto7jo1f" path="res://Assets/Images/System/BackButtonFrame2.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://85x64n0phtqs" path="res://Assets/Images/HomeMenu/HeaderIcons/bluetooth-dm.png" id="64_jumtu"]
+[ext_resource type="Texture2D" uid="uid://5qcpyv3q5o77" path="res://Assets/Images/System/BackButton.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://bckvemefugce2" path="res://Assets/Images/System/SleepModeButtonFrame2.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://clqc3feo17xlq" path="res://Assets/Images/System/SleepModeButtonFrame1.png" id="67"]
+[ext_resource type="AudioStream" uid="uid://d3dpqtq6jv7gb" path="res://Assets/Sounds/Settings Start.wav" id="68"]
+
+[sub_resource type="AnimatedTexture" id="1"]
+frames = 2
+frame_0/texture = ExtResource("4_i81ca")
+frame_1/texture = ExtResource("5_q4pag")
+frame_1/duration = 1.0
+
+[sub_resource type="FontFile" id="2"]
+fallbacks = Array[Font]([ExtResource("43")])
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+
+[sub_resource type="AnimatedTexture" id="3"]
+frames = 2
+frame_0/texture = ExtResource("57")
+frame_1/texture = ExtResource("51")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="4"]
+frames = 2
+frame_0/texture = ExtResource("3")
+frame_1/texture = ExtResource("7")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="5"]
+frames = 2
+frame_0/texture = ExtResource("37")
+frame_1/texture = ExtResource("16")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="6"]
+frames = 2
+frame_0/texture = ExtResource("14")
+frame_1/texture = ExtResource("56")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="7"]
+frames = 2
+frame_0/texture = ExtResource("46")
+frame_1/texture = ExtResource("55")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="8"]
+frames = 2
+frame_0/texture = ExtResource("52")
+frame_1/texture = ExtResource("48")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="16"]
+frames = 2
+frame_0/texture = ExtResource("35")
+frame_1/texture = ExtResource("23")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="17"]
+frames = 2
+frame_0/texture = ExtResource("20")
+frame_1/texture = ExtResource("21")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="11"]
+frames = 2
+frame_0/texture = ExtResource("8")
+frame_1/texture = ExtResource("6")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="12"]
+frames = 2
+frame_0/texture = ExtResource("28")
+frame_1/texture = ExtResource("9")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="13"]
+frames = 2
+frame_0/texture = ExtResource("41_2wym6")
+frame_1/texture = ExtResource("42_slpvv")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="AnimatedTexture_30epc"]
+frames = 2
+frame_0/texture = ExtResource("12")
+frame_1/texture = ExtResource("17")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="14"]
+frames = 2
+frame_0/texture = ExtResource("27")
+frame_1/texture = ExtResource("13")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="15"]
+frames = 2
+frame_0/texture = ExtResource("29")
+frame_1/texture = ExtResource("26")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="18"]
+frames = 2
+frame_0/texture = ExtResource("63")
+frame_1/texture = ExtResource("64")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="19"]
+frames = 2
+frame_0/texture = ExtResource("67")
+frame_1/texture = ExtResource("66")
+frame_1/duration = 1.0
+
+[sub_resource type="FontFile" id="20"]
+fallbacks = Array[Font]([ExtResource("43")])
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+
+[node name="Home Panel" type="Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = ExtResource("60")
+script = ExtResource("2")
+
+[node name="UserIconAspectRatioContainer" type="AspectRatioContainer" parent="."]
+layout_mode = 0
+anchor_left = 0.0320312
+anchor_right = 0.0742188
+anchor_bottom = 0.147222
+
+[node name="UserProfileButton" type="TextureButton" parent="UserIconAspectRatioContainer"]
+layout_mode = 2
+texture_normal = ExtResource("3_30epc")
+texture_hover = SubResource("1")
+
+[node name="UserProfileLabel" type="Label" parent="UserIconAspectRatioContainer/UserProfileButton"]
+visible = false
+layout_mode = 0
+anchor_left = -0.185185
+anchor_top = 1.11111
+anchor_right = 2.14815
+anchor_bottom = 1.53704
+theme_override_colors/font_color = Color(0.0313726, 0.717647, 0.764706, 1)
+theme_override_fonts/font = ExtResource("1")
+text = "NX's Profile"
+
+[node name="TimeLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.767
+anchor_top = 0.064
+anchor_right = 0.816
+anchor_bottom = 0.093
+offset_left = 0.23999
+offset_top = -0.0800018
+offset_right = 0.518921
+offset_bottom = 0.0400238
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = SubResource("2")
+text = "00:00"
+horizontal_alignment = 1
+
+[node name="BatteryPercentageLabel" type="Label" parent="."]
+layout_mode = 0
+anchor_left = 0.875
+anchor_top = 0.0638889
+anchor_right = 0.924219
+anchor_bottom = 0.0930556
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = SubResource("2")
+text = "100%"
+horizontal_alignment = 1
+
+[node name="BluetoothLabel" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.821
+anchor_top = 0.064
+anchor_right = 0.843
+anchor_bottom = 0.092
+offset_left = 0.119995
+offset_top = -0.0800018
+offset_right = -0.0400391
+offset_bottom = -0.240005
+texture = ExtResource("64_jumtu")
+
+[node name="WiFiLabel" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.852
+anchor_top = 0.065
+anchor_right = 0.875
+anchor_bottom = 0.093
+offset_left = 0.439941
+offset_top = 0.199997
+offset_right = -1.00012
+offset_bottom = 0.0400009
+texture = ExtResource("50")
+
+[node name="BatteryLabel" type="TextureRect" parent="."]
+layout_mode = 0
+anchor_left = 0.925781
+anchor_top = 0.0625
+anchor_right = 0.953906
+anchor_bottom = 0.0902778
+texture = ExtResource("49")
+
+[node name="SoftwareScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 0
+anchor_top = 0.272222
+anchor_right = 0.999219
+anchor_bottom = 0.654166
+offset_bottom = -3.05176e-05
+
+[node name="SoftwareHBoxContainer" type="HBoxContainer" parent="SoftwareScrollContainer"]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="SoftwareIcon1" type="TextureButton" parent="SoftwareScrollContainer/SoftwareHBoxContainer"]
+layout_mode = 2
+texture_normal = ExtResource("54")
+texture_hover = SubResource("3")
+
+[node name="SoftwareIcon2" type="TextureButton" parent="SoftwareScrollContainer/SoftwareHBoxContainer"]
+layout_mode = 2
+texture_normal = ExtResource("45")
+texture_hover = SubResource("4")
+
+[node name="SoftwareIcon3" type="TextureButton" parent="SoftwareScrollContainer/SoftwareHBoxContainer"]
+layout_mode = 2
+texture_normal = ExtResource("47")
+texture_hover = SubResource("5")
+
+[node name="SoftwareIcon4" type="TextureButton" parent="SoftwareScrollContainer/SoftwareHBoxContainer"]
+layout_mode = 2
+texture_normal = ExtResource("58")
+texture_hover = SubResource("6")
+
+[node name="SoftwareIcon5" type="TextureButton" parent="SoftwareScrollContainer/SoftwareHBoxContainer"]
+layout_mode = 2
+texture_normal = ExtResource("10")
+texture_hover = SubResource("7")
+
+[node name="SoftwareIcon6" type="TextureButton" parent="SoftwareScrollContainer/SoftwareHBoxContainer"]
+layout_mode = 2
+texture_normal = ExtResource("36")
+texture_hover = SubResource("8")
+
+[node name="SoftwareIcon7" type="TextureButton" parent="SoftwareScrollContainer/SoftwareHBoxContainer"]
+layout_mode = 2
+texture_normal = ExtResource("22")
+texture_hover = SubResource("16")
+
+[node name="SoftwareIcon8" type="TextureButton" parent="SoftwareScrollContainer/SoftwareHBoxContainer"]
+layout_mode = 2
+texture_normal = ExtResource("34")
+texture_hover = SubResource("17")
+
+[node name="NavigationContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+anchor_left = 0.180469
+anchor_top = 0.708333
+anchor_right = 0.817969
+anchor_bottom = 0.890278
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="NavigationButton3" type="TextureButton" parent="NavigationContainer"]
+visible = false
+layout_mode = 2
+texture_normal = ExtResource("11")
+texture_hover = SubResource("11")
+
+[node name="NavigationButton1Label3" type="Label" parent="NavigationContainer/NavigationButton3"]
+visible = false
+layout_mode = 0
+anchor_left = -0.388889
+anchor_top = 0.763359
+anchor_right = 1.43333
+anchor_bottom = 0.923664
+offset_top = -4.0
+offset_bottom = -4.0
+theme_override_colors/font_color = Color(0.0313726, 0.717647, 0.764706, 1)
+theme_override_fonts/font = ExtResource("1")
+text = "Nintendo eShop"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NavigationButton4" type="TextureButton" parent="NavigationContainer"]
+layout_mode = 2
+texture_normal = ExtResource("31")
+texture_hover = SubResource("12")
+
+[node name="NavigationButton1Label4" type="Label" parent="NavigationContainer/NavigationButton4"]
+visible = false
+layout_mode = 0
+anchor_left = 0.111111
+anchor_top = 0.755725
+anchor_right = 0.9
+anchor_bottom = 0.916031
+offset_top = -3.0
+offset_bottom = -3.0
+theme_override_colors/font_color = Color(0.0313726, 0.717647, 0.764706, 1)
+theme_override_fonts/font = ExtResource("1")
+text = "Album"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NavigationButton9" type="TextureButton" parent="NavigationContainer"]
+layout_mode = 2
+texture_normal = ExtResource("41_slpvv")
+texture_hover = SubResource("13")
+
+[node name="NavigationButton1Label9" type="Label" parent="NavigationContainer/NavigationButton9"]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.122222
+anchor_top = 0.763359
+anchor_right = 1.16667
+anchor_bottom = 0.923664
+offset_left = -2.00272e-05
+offset_top = -3.05176e-05
+offset_right = -2.0003
+offset_bottom = -3.99998
+theme_override_colors/font_color = Color(0.0313726, 0.717647, 0.764706, 1)
+theme_override_fonts/font = ExtResource("1")
+text = "File"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NavigationButton5" type="TextureButton" parent="NavigationContainer"]
+layout_mode = 2
+texture_normal = ExtResource("15")
+texture_hover = SubResource("AnimatedTexture_30epc")
+
+[node name="NavigationButton1Label5" type="Label" parent="NavigationContainer/NavigationButton5"]
+visible = false
+layout_mode = 0
+anchor_left = -0.122222
+anchor_top = 0.763359
+anchor_right = 1.16667
+anchor_bottom = 0.923664
+offset_top = -4.0
+offset_bottom = -4.0
+theme_override_colors/font_color = Color(0.0313726, 0.717647, 0.764706, 1)
+theme_override_fonts/font = ExtResource("1")
+text = "Controllers"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NavigationButton6" type="TextureButton" parent="NavigationContainer"]
+layout_mode = 2
+texture_normal = ExtResource("24")
+texture_hover = SubResource("14")
+
+[node name="NavigationButton1Label6" type="Label" parent="NavigationContainer/NavigationButton6"]
+visible = false
+layout_mode = 0
+anchor_left = -0.277778
+anchor_top = 0.770992
+anchor_right = 1.53333
+anchor_bottom = 0.931298
+offset_top = -5.0
+offset_bottom = -5.0
+theme_override_colors/font_color = Color(0.0313726, 0.717647, 0.764706, 1)
+theme_override_fonts/font = ExtResource("1")
+text = "System Settings"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NavigationButton7" type="TextureButton" parent="NavigationContainer"]
+layout_mode = 2
+texture_normal = ExtResource("18")
+texture_hover = SubResource("15")
+
+[node name="NavigationButton1Label7" type="Label" parent="NavigationContainer/NavigationButton7"]
+visible = false
+layout_mode = 0
+anchor_left = -0.111111
+anchor_top = 0.732824
+anchor_right = 1.27778
+anchor_bottom = 0.89313
+theme_override_colors/font_color = Color(0.0313726, 0.717647, 0.764706, 1)
+theme_override_fonts/font = ExtResource("1")
+text = "Sleep Mode"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Footer" type="HSeparator" parent="."]
+layout_mode = 0
+anchor_top = 0.923611
+anchor_right = 1.0
+anchor_bottom = 0.929167
+theme = ExtResource("38")
+
+[node name="ModeIcon" type="TextureRect" parent="Footer"]
+layout_mode = 0
+anchor_left = 0.0210938
+anchor_top = 2.75
+anchor_right = 0.0757812
+anchor_bottom = 10.75
+texture = ExtResource("19")
+
+[node name="HomeMenuStartup" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("39")
+autoplay = true
+
+[node name="SelectAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("40")
+
+[node name="MoveSelectorAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("42")
+
+[node name="StandbyAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("41")
+
+[node name="UserLaunchAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("61")
+
+[node name="SystemSettingsStartupAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("68")
+
+[node name="QuitWindow" type="Popup" parent="."]
+
+[node name="BackButton" type="TextureButton" parent="QuitWindow"]
+anchors_preset = -1
+anchor_left = 0.00294986
+anchor_top = 0.830508
+anchor_right = 0.501475
+anchor_bottom = 1.0
+texture_normal = ExtResource("65")
+texture_hover = SubResource("18")
+stretch_mode = 5
+
+[node name="SleepModeButon" type="TextureButton" parent="QuitWindow"]
+anchors_preset = -1
+anchor_left = 0.501492
+anchor_top = 0.830508
+anchor_right = 1.00298
+anchor_bottom = 1.0
+texture_normal = ExtResource("62")
+texture_hover = SubResource("19")
+stretch_mode = 5
+
+[node name="Text" type="Label" parent="QuitWindow"]
+anchors_preset = -1
+anchor_left = 0.146018
+anchor_top = 0.358757
+anchor_right = 0.806785
+anchor_bottom = 0.49435
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = SubResource("20")
+text = "The console will now enter sleep mode."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="mouse_entered" from="UserIconAspectRatioContainer/UserProfileButton" to="." method="_on_UserProfileButton_mouse_entered"]
+[connection signal="mouse_exited" from="UserIconAspectRatioContainer/UserProfileButton" to="." method="_on_UserProfileButton_mouse_exited"]
+[connection signal="pressed" from="UserIconAspectRatioContainer/UserProfileButton" to="." method="_on_UserProfileButton_pressed"]
+[connection signal="mouse_entered" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon1" to="." method="_on_SoftwareIcon1_mouse_entered"]
+[connection signal="pressed" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon1" to="." method="_on_SoftwareIcon1_pressed"]
+[connection signal="mouse_entered" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon2" to="." method="_on_SoftwareIcon2_mouse_entered"]
+[connection signal="pressed" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon2" to="." method="_on_SoftwareIcon2_pressed"]
+[connection signal="mouse_entered" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon3" to="." method="_on_SoftwareIcon3_mouse_entered"]
+[connection signal="pressed" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon3" to="." method="_on_SoftwareIcon3_pressed"]
+[connection signal="mouse_entered" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon4" to="." method="_on_SoftwareIcon4_mouse_entered"]
+[connection signal="pressed" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon4" to="." method="_on_SoftwareIcon4_pressed"]
+[connection signal="mouse_entered" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon5" to="." method="_on_SoftwareIcon5_mouse_entered"]
+[connection signal="pressed" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon5" to="." method="_on_SoftwareIcon5_pressed"]
+[connection signal="mouse_entered" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon6" to="." method="_on_SoftwareIcon6_mouse_entered"]
+[connection signal="pressed" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon6" to="." method="_on_SoftwareIcon6_pressed"]
+[connection signal="mouse_entered" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon7" to="." method="_on_SoftwareIcon7_mouse_entered"]
+[connection signal="pressed" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon7" to="." method="_on_SoftwareIcon7_pressed"]
+[connection signal="mouse_entered" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon8" to="." method="_on_SoftwareIcon8_mouse_entered"]
+[connection signal="pressed" from="SoftwareScrollContainer/SoftwareHBoxContainer/SoftwareIcon8" to="." method="_on_SoftwareIcon8_pressed"]
+[connection signal="mouse_entered" from="NavigationContainer/NavigationButton3" to="." method="_on_NavigationButton3_mouse_entered"]
+[connection signal="mouse_exited" from="NavigationContainer/NavigationButton3" to="." method="_on_NavigationButton3_mouse_exited"]
+[connection signal="pressed" from="NavigationContainer/NavigationButton3" to="." method="_on_NavigationButton3_pressed"]
+[connection signal="mouse_entered" from="NavigationContainer/NavigationButton4" to="." method="_on_NavigationButton4_mouse_entered"]
+[connection signal="mouse_exited" from="NavigationContainer/NavigationButton4" to="." method="_on_NavigationButton4_mouse_exited"]
+[connection signal="pressed" from="NavigationContainer/NavigationButton4" to="." method="_on_NavigationButton4_pressed"]
+[connection signal="mouse_entered" from="NavigationContainer/NavigationButton9" to="." method="_on_NavigationButton9_mouse_entered"]
+[connection signal="mouse_exited" from="NavigationContainer/NavigationButton9" to="." method="_on_NavigationButton9_mouse_exited"]
+[connection signal="pressed" from="NavigationContainer/NavigationButton9" to="." method="_on_NavigationButton9_pressed"]
+[connection signal="mouse_entered" from="NavigationContainer/NavigationButton5" to="." method="_on_NavigationButton5_mouse_entered"]
+[connection signal="mouse_exited" from="NavigationContainer/NavigationButton5" to="." method="_on_NavigationButton5_mouse_exited"]
+[connection signal="pressed" from="NavigationContainer/NavigationButton5" to="." method="_on_NavigationButton5_pressed"]
+[connection signal="mouse_entered" from="NavigationContainer/NavigationButton6" to="." method="_on_NavigationButton6_mouse_entered"]
+[connection signal="mouse_exited" from="NavigationContainer/NavigationButton6" to="." method="_on_NavigationButton6_mouse_exited"]
+[connection signal="pressed" from="NavigationContainer/NavigationButton6" to="." method="_on_NavigationButton6_pressed"]
+[connection signal="mouse_entered" from="NavigationContainer/NavigationButton7" to="." method="_on_NavigationButton7_mouse_entered"]
+[connection signal="mouse_exited" from="NavigationContainer/NavigationButton7" to="." method="_on_NavigationButton7_mouse_exited"]
+[connection signal="pressed" from="NavigationContainer/NavigationButton7" to="." method="_on_NavigationButton7_pressed"]
+[connection signal="mouse_entered" from="QuitWindow/BackButton" to="." method="_on_BackButton_mouse_entered"]
+[connection signal="pressed" from="QuitWindow/BackButton" to="." method="_on_BackButton_pressed"]
+[connection signal="mouse_entered" from="QuitWindow/SleepModeButon" to="." method="_on_SleepModeButon_mouse_entered"]
+[connection signal="pressed" from="QuitWindow/SleepModeButon" to="." method="_on_SleepModeButon_pressed"]

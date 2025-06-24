@@ -1,0 +1,262 @@
+[gd_scene load_steps=29 format=3 uid="uid://s653opc2vvpm"]
+
+[ext_resource type="Texture2D" uid="uid://w511r1k3xq7h" path="res://Assets/Images/System/SystemButton.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://b5x4bkffrh1l5" path="res://Assets/Images/HomeMenu/FooterIcons/handheld-mode-dm.png" id="2"]
+[ext_resource type="StyleBox" path="res://Assets/Themes/DarkPanelTheme.tres" id="3"]
+[ext_resource type="Theme" uid="uid://cputhfx6q21fb" path="res://Assets/Themes/Footer.tres" id="4"]
+[ext_resource type="Texture2D" uid="uid://cg8t2majlf5qc" path="res://Assets/Images/System/setting.png" id="4_nj2k0"]
+[ext_resource type="FontFile" uid="uid://ckmhma0j6q5g8" path="res://Assets/Fonts/NINTENDOSWITCHUI.TTF" id="5"]
+[ext_resource type="Script" uid="uid://b66skpuna8f0o" path="res://Assets/Scripts/System Settings.gd" id="6"]
+[ext_resource type="Texture2D" uid="uid://ce34b6sxrl4a" path="res://Assets/Images/System/BackButtonFrame1.png" id="9_cbts5"]
+[ext_resource type="AudioStream" uid="uid://b0irx2tvyhfpp" path="res://Assets/Sounds/0101.wav" id="10_1mle7"]
+[ext_resource type="Texture2D" uid="uid://cdjveykmh38vs" path="res://Assets/Images/UserProfile/ScrollBarButtons/FriendSuggestionsButton.png" id="23_ijtqy"]
+[ext_resource type="Texture2D" uid="uid://dxfa1rk55r50u" path="res://Assets/Images/UserProfile/ScrollBarButtons/FriendSuggestionsButtonSelected.png" id="24_xxdoa"]
+[ext_resource type="Texture2D" uid="uid://nw23vursukct" path="res://Assets/Images/UserProfile/ScrollBarButtons/FriendSuggestionsButtonFrame1.png" id="25_iy5xj"]
+[ext_resource type="Texture2D" uid="uid://g0ylxa3u4yqn" path="res://Assets/Images/UserProfile/ScrollBarButtons/FriendSuggestionsButtonFrame2.png" id="26_s7u7v"]
+[ext_resource type="Texture2D" uid="uid://b21g8dckykjxf" path="res://Assets/Images/UserProfile/ScrollBarButtons/AddFriendButton.png" id="27_re6xs"]
+[ext_resource type="Texture2D" uid="uid://cxkqhns14ny8a" path="res://Assets/Images/UserProfile/ScrollBarButtons/AddFriendButtonSelected.png" id="28_pqqdk"]
+[ext_resource type="Texture2D" uid="uid://csxc3bh2ub7os" path="res://Assets/Images/UserProfile/ScrollBarButtons/AddFriendButtonFrame1.png" id="29_vrxla"]
+[ext_resource type="Texture2D" uid="uid://dx5x2glhj1oja" path="res://Assets/Images/UserProfile/ScrollBarButtons/AddFriendButtonFrame2.png" id="30_xqdxp"]
+[ext_resource type="Texture2D" uid="uid://bk5ckhlbkbkta" path="res://Assets/Images/UserProfile/ScrollBarButtons/UserSettingsButton.png" id="31_snt54"]
+[ext_resource type="Texture2D" uid="uid://btsl42pkbteb2" path="res://Assets/Images/UserProfile/ScrollBarButtons/UserSettingsButtonSelected.png" id="32_lbxup"]
+[ext_resource type="Texture2D" uid="uid://c6geaca4gmet6" path="res://Assets/Images/UserProfile/ScrollBarButtons/UserSettingsButtonFrame1.png" id="33_ey8cy"]
+[ext_resource type="Texture2D" uid="uid://dhrbf7jvykcgx" path="res://Assets/Images/UserProfile/ScrollBarButtons/UserSettingsButtonFrame2.png" id="34_c23lq"]
+[ext_resource type="Texture2D" uid="uid://clqc3feo17xlq" path="res://Assets/Images/System/SleepModeButtonFrame1.png" id="37_a5h63"]
+
+[sub_resource type="FontFile" id="1"]
+fallbacks = Array[Font]([ExtResource("5")])
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+
+[sub_resource type="AnimatedTexture" id="AnimatedTexture_a5h63"]
+frames = 2
+frame_0/texture = ExtResource("34_c23lq")
+frame_1/texture = ExtResource("33_ey8cy")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="AnimatedTexture_b1l8k"]
+frames = 2
+frame_0/texture = ExtResource("25_iy5xj")
+frame_1/texture = ExtResource("26_s7u7v")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="AnimatedTexture_8afsp"]
+frames = 2
+frame_0/texture = ExtResource("29_vrxla")
+frame_1/texture = ExtResource("30_xqdxp")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="AnimatedTexture_o4mk5"]
+frames = 2
+frame_0/texture = ExtResource("33_ey8cy")
+frame_1/texture = ExtResource("34_c23lq")
+frame_1/duration = 1.0
+
+[sub_resource type="FontFile" id="3"]
+fallbacks = Array[Font]([ExtResource("5")])
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+
+[node name="Settings Panel" type="Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = ExtResource("3")
+script = ExtResource("6")
+
+[node name="Header" type="HSeparator" parent="."]
+layout_mode = 0
+anchor_top = 0.104167
+anchor_right = 1.0
+anchor_bottom = 0.109723
+theme = ExtResource("4")
+
+[node name="SettingsIcon" type="TextureRect" parent="Header"]
+layout_mode = 0
+anchor_left = 0.0203125
+anchor_top = -17.2487
+anchor_right = 0.0703125
+anchor_bottom = -1.2499
+texture = ExtResource("4_nj2k0")
+
+[node name="SettingsTitleLabel" type="Label" parent="Header/SettingsIcon"]
+layout_mode = 0
+anchor_left = 1.0
+anchor_top = 0.203125
+anchor_right = 3.04688
+anchor_bottom = 0.8125
+theme_override_fonts/font = SubResource("1")
+text = "System Settings"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Footer" type="HSeparator" parent="."]
+layout_mode = 0
+anchor_top = 0.923611
+anchor_right = 1.0
+anchor_bottom = 0.929167
+theme = ExtResource("4")
+
+[node name="ModeIcon" type="TextureRect" parent="Footer"]
+layout_mode = 0
+anchor_left = 0.0210938
+anchor_top = 2.75
+anchor_right = 0.0757812
+anchor_bottom = 10.75
+texture = ExtResource("2")
+
+[node name="Button" type="Button" parent="Footer"]
+layout_mode = 0
+anchor_left = 0.910937
+anchor_top = 1.99985
+anchor_right = 0.994531
+anchor_bottom = 12.499
+text = "Home"
+
+[node name="SettingsButtonsScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0460938
+anchor_top = 0.106944
+anchor_right = 0.211719
+anchor_bottom = 0.925
+
+[node name="SettingsVBoxContainer" type="VBoxContainer" parent="SettingsButtonsScrollContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="HSeparator" type="HSeparator" parent="SettingsButtonsScrollContainer/SettingsVBoxContainer"]
+layout_mode = 2
+
+[node name="SystemButton1" type="TextureButton" parent="SettingsButtonsScrollContainer/SettingsVBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+texture_normal = ExtResource("1")
+texture_hover = SubResource("AnimatedTexture_a5h63")
+
+[node name="infoButton5" type="TextureButton" parent="SettingsButtonsScrollContainer/SettingsVBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+texture_normal = ExtResource("1")
+texture_pressed = ExtResource("9_cbts5")
+texture_hover = ExtResource("37_a5h63")
+
+[node name="HSeparator2" type="HSeparator" parent="SettingsButtonsScrollContainer/SettingsVBoxContainer"]
+layout_mode = 2
+
+[node name="FriendSuggestionsButton3" type="TextureButton" parent="SettingsButtonsScrollContainer/SettingsVBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+texture_normal = ExtResource("23_ijtqy")
+texture_pressed = ExtResource("24_xxdoa")
+texture_hover = SubResource("AnimatedTexture_b1l8k")
+
+[node name="FriendSuggestionsButton2" type="TextureButton" parent="SettingsButtonsScrollContainer/SettingsVBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+texture_normal = ExtResource("23_ijtqy")
+texture_pressed = ExtResource("24_xxdoa")
+texture_hover = SubResource("AnimatedTexture_b1l8k")
+
+[node name="FriendSuggestionsButton4" type="TextureButton" parent="SettingsButtonsScrollContainer/SettingsVBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+texture_normal = ExtResource("23_ijtqy")
+texture_pressed = ExtResource("24_xxdoa")
+texture_hover = SubResource("AnimatedTexture_b1l8k")
+
+[node name="AddFriendButton1" type="TextureButton" parent="SettingsButtonsScrollContainer/SettingsVBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+texture_normal = ExtResource("27_re6xs")
+texture_pressed = ExtResource("28_pqqdk")
+texture_hover = SubResource("AnimatedTexture_8afsp")
+
+[node name="HSeparator3" type="HSeparator" parent="SettingsButtonsScrollContainer/SettingsVBoxContainer"]
+layout_mode = 2
+
+[node name="UserSettingsButton1" type="TextureButton" parent="SettingsButtonsScrollContainer/SettingsVBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+texture_normal = ExtResource("31_snt54")
+texture_pressed = ExtResource("32_lbxup")
+texture_hover = SubResource("AnimatedTexture_o4mk5")
+
+[node name="System" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.454
+anchor_top = 0.617
+anchor_right = 0.602
+anchor_bottom = 0.733
+offset_left = 3.87994
+offset_top = -0.240021
+offset_right = -0.560059
+offset_bottom = 0.23999
+theme_override_fonts/font = SubResource("3")
+text = "YuOS"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InfoSystemLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.456
+anchor_top = 0.75
+anchor_right = 0.601
+anchor_bottom = 0.803
+offset_left = 0.319946
+offset_top = -6.10352e-05
+offset_right = -0.280029
+offset_bottom = -0.160034
+theme_override_fonts/font = SubResource("3")
+text = "Power by :"
+horizontal_alignment = 1
+
+[node name="InfoSystemLabel2" type="Label" parent="InfoSystemLabel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 1.802
+offset_left = 4.0
+offset_top = 5.0
+offset_bottom = -9.476
+theme_override_fonts/font = SubResource("3")
+text = "Qizhiwoniu"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SystemVersionLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.456
+anchor_top = 0.843
+anchor_right = 0.628
+anchor_bottom = 0.878
+offset_left = 0.319946
+offset_top = 0.039978
+offset_right = 0.159973
+offset_bottom = -0.160034
+theme_override_fonts/font = SubResource("3")
+text = "System Version: 0.0.0.1"
+
+[node name="MoveSelectorAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_1mle7")
+
+[connection signal="pressed" from="Footer/Button" to="." method="_on_Button_pressed"]
+[connection signal="mouse_entered" from="SettingsButtonsScrollContainer/SettingsVBoxContainer/SystemButton1" to="." method="_on_SystemButton1_mouse_entered"]
+[connection signal="mouse_entered" from="SettingsButtonsScrollContainer/SettingsVBoxContainer/infoButton5" to="." method="_on_InfoButton5_mouse_entered"]
+[connection signal="mouse_entered" from="SettingsButtonsScrollContainer/SettingsVBoxContainer/FriendSuggestionsButton3" to="." method="_on_FriendSuggestionsButton3_mouse_entered"]
+[connection signal="mouse_entered" from="SettingsButtonsScrollContainer/SettingsVBoxContainer/FriendSuggestionsButton2" to="." method="_on_FriendSuggestionsButton2_mouse_entered"]
+[connection signal="mouse_entered" from="SettingsButtonsScrollContainer/SettingsVBoxContainer/FriendSuggestionsButton4" to="." method="_on_FriendSuggestionsButton4_mouse_entered"]
+[connection signal="mouse_entered" from="SettingsButtonsScrollContainer/SettingsVBoxContainer/AddFriendButton1" to="." method="_on_add_friend_button_1_mouse_entered"]
+[connection signal="mouse_entered" from="SettingsButtonsScrollContainer/SettingsVBoxContainer/UserSettingsButton1" to="." method="_on_user_settings_button_1_mouse_entered"]

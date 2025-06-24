@@ -1,0 +1,6 @@
+res://default_env.tres
+res://File System.tscn
+res://Assets/Themes/Footer.tres
+res://export_presets.cfg
+res://Home.tscn
+res://addons/awesome_custom_cursor/Autoloads/Cursor.gd

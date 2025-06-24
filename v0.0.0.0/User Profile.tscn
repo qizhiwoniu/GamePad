@@ -1,0 +1,224 @@
+[gd_scene load_steps=44 format=3 uid="uid://cv8uxbvutabf0"]
+
+[ext_resource type="Texture2D" uid="uid://b5x4bkffrh1l5" path="res://Assets/Images/HomeMenu/FooterIcons/handheld-mode-dm.png" id="1"]
+[ext_resource type="Theme" uid="uid://cputhfx6q21fb" path="res://Assets/Themes/Footer.tres" id="2"]
+[ext_resource type="FontFile" uid="uid://ckmhma0j6q5g8" path="res://Assets/Fonts/NINTENDOSWITCHUI.TTF" id="3"]
+[ext_resource type="Script" uid="uid://mlvv1hxni8qu" path="res://Assets/Scripts/User Profile.gd" id="5"]
+[ext_resource type="Texture2D" uid="uid://df7le77n1h0no" path="res://Assets/Images/HomeMenu/HeaderIcons/YuOS-Icon.png" id="5_6xrlt"]
+[ext_resource type="Texture2D" uid="uid://55ytmj4me0v1" path="res://Assets/Images/UserProfile/ScrollBarButtons/ProfileButton.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://brkulf0d5tvag" path="res://Assets/Images/UserProfile/ScrollBarButtons/OnlinePlayInvitesButton.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cdjveykmh38vs" path="res://Assets/Images/UserProfile/ScrollBarButtons/FriendSuggestionsButton.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bk5ckhlbkbkta" path="res://Assets/Images/UserProfile/ScrollBarButtons/UserSettingsButton.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dndycc6xunafi" path="res://Assets/Images/UserProfile/ScrollBarButtons/TrendingButton.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://b21g8dckykjxf" path="res://Assets/Images/UserProfile/ScrollBarButtons/AddFriendButton.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://c7s1n64byfoue" path="res://Assets/Images/UserProfile/ScrollBarButtons/FriendListButton.png" id="12"]
+[ext_resource type="StyleBox" path="res://Assets/Themes/DarkPanelTheme.tres" id="13"]
+[ext_resource type="AudioStream" uid="uid://b0irx2tvyhfpp" path="res://Assets/Sounds/0101.wav" id="14"]
+[ext_resource type="Texture2D" uid="uid://cwkutkekg345w" path="res://Assets/Images/UserProfile/ScrollBarButtons/ProfileButtonFrame1.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cibruqhfrvpgy" path="res://Assets/Images/UserProfile/ScrollBarButtons/ProfileButtonFrame2.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dx5x2glhj1oja" path="res://Assets/Images/UserProfile/ScrollBarButtons/AddFriendButtonFrame2.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://csxc3bh2ub7os" path="res://Assets/Images/UserProfile/ScrollBarButtons/AddFriendButtonFrame1.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://c6geaca4gmet6" path="res://Assets/Images/UserProfile/ScrollBarButtons/UserSettingsButtonFrame1.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dhrbf7jvykcgx" path="res://Assets/Images/UserProfile/ScrollBarButtons/UserSettingsButtonFrame2.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://daiks6nopun07" path="res://Assets/Images/UserProfile/ScrollBarButtons/OnlinePlayInvitesButtonFrame2.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://bpf4wxdjw136g" path="res://Assets/Images/UserProfile/ScrollBarButtons/OnlinePlayInvitesButtonFrame1.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://nw23vursukct" path="res://Assets/Images/UserProfile/ScrollBarButtons/FriendSuggestionsButtonFrame1.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://g0ylxa3u4yqn" path="res://Assets/Images/UserProfile/ScrollBarButtons/FriendSuggestionsButtonFrame2.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cfmpxg8ey5hls" path="res://Assets/Images/UserProfile/ScrollBarButtons/FriendListButtonFrame1.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://cmxbyigpudy8b" path="res://Assets/Images/UserProfile/ScrollBarButtons/FriendListButtonFrame2.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dqx56gvj77wwv" path="res://Assets/Images/UserProfile/ScrollBarButtons/TrendingButtonFrame1.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://bgdr72a2xm181" path="res://Assets/Images/UserProfile/ScrollBarButtons/TrendingButtonFrame2.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://2wnon4p0omvq" path="res://Assets/Images/UserProfile/ScrollBarButtons/ProfileButtonSelected.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://bben228xu4yq1" path="res://Assets/Images/UserProfile/ScrollBarButtons/TrendingButtonSelected.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://dmiqv4h1c2frk" path="res://Assets/Images/UserProfile/ScrollBarButtons/FriendListButtonSelected.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://dgqapxy647tj7" path="res://Assets/Images/UserProfile/ScrollBarButtons/OnlinePlayInvitesButtonSelected.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://dxfa1rk55r50u" path="res://Assets/Images/UserProfile/ScrollBarButtons/FriendSuggestionsButtonSelected.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://btsl42pkbteb2" path="res://Assets/Images/UserProfile/ScrollBarButtons/UserSettingsButtonSelected.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://cxkqhns14ny8a" path="res://Assets/Images/UserProfile/ScrollBarButtons/AddFriendButtonSelected.png" id="35"]
+
+[sub_resource type="FontFile" id="1"]
+fallbacks = Array[Font]([ExtResource("3")])
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+
+[sub_resource type="AnimatedTexture" id="2"]
+frames = 2
+frame_0/texture = ExtResource("15")
+frame_1/texture = ExtResource("16")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="3"]
+frames = 2
+frame_0/texture = ExtResource("25")
+frame_1/texture = ExtResource("26")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="4"]
+frames = 2
+frame_0/texture = ExtResource("27")
+frame_1/texture = ExtResource("28")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="5"]
+frames = 2
+frame_0/texture = ExtResource("22")
+frame_1/texture = ExtResource("21")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="6"]
+frames = 2
+frame_0/texture = ExtResource("23")
+frame_1/texture = ExtResource("24")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="7"]
+frames = 2
+frame_0/texture = ExtResource("18")
+frame_1/texture = ExtResource("17")
+frame_1/duration = 1.0
+
+[sub_resource type="AnimatedTexture" id="8"]
+frames = 2
+frame_0/texture = ExtResource("19")
+frame_1/texture = ExtResource("20")
+frame_1/duration = 1.0
+
+[node name="User Profile" type="Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme_override_styles/panel = ExtResource("13")
+script = ExtResource("5")
+
+[node name="Footer" type="HSeparator" parent="."]
+layout_mode = 0
+anchor_top = 0.923611
+anchor_right = 1.0
+anchor_bottom = 0.929167
+theme = ExtResource("2")
+
+[node name="ModeIcon" type="TextureRect" parent="Footer"]
+layout_mode = 0
+anchor_left = 0.0210938
+anchor_top = 2.75
+anchor_right = 0.0757812
+anchor_bottom = 10.75
+texture = ExtResource("1")
+
+[node name="Button" type="Button" parent="Footer"]
+layout_mode = 0
+anchor_left = 0.910937
+anchor_top = 1.99985
+anchor_right = 0.994531
+anchor_bottom = 12.499
+text = "Home"
+
+[node name="Header" type="HSeparator" parent="."]
+layout_mode = 0
+anchor_top = 0.104167
+anchor_right = 1.0
+anchor_bottom = 0.109723
+theme = ExtResource("2")
+
+[node name="UserProfile" type="TextureRect" parent="Header"]
+layout_mode = 0
+anchor_left = 0.0203125
+anchor_top = -17.2487
+anchor_right = 0.0703125
+anchor_bottom = -1.2499
+texture = ExtResource("5_6xrlt")
+
+[node name="UserProfileLabel" type="Label" parent="Header/UserProfile"]
+layout_mode = 0
+anchor_left = 1.0
+anchor_top = 0.203125
+anchor_right = 3.04688
+anchor_bottom = 0.8125
+theme_override_fonts/font = SubResource("1")
+text = "NX's Page"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="UserProfileButtonsScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 0
+anchor_left = 0.0460938
+anchor_top = 0.106944
+anchor_right = 0.211719
+anchor_bottom = 0.925
+
+[node name="UserProfileVBoxContainer" type="VBoxContainer" parent="UserProfileButtonsScrollContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="HSeparator" type="HSeparator" parent="UserProfileButtonsScrollContainer/UserProfileVBoxContainer"]
+layout_mode = 2
+
+[node name="ProfileButton" type="TextureButton" parent="UserProfileButtonsScrollContainer/UserProfileVBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+texture_normal = ExtResource("6")
+texture_pressed = ExtResource("29")
+texture_hover = SubResource("2")
+
+[node name="HSeparator2" type="HSeparator" parent="UserProfileButtonsScrollContainer/UserProfileVBoxContainer"]
+layout_mode = 2
+
+[node name="FriendsListButton" type="TextureButton" parent="UserProfileButtonsScrollContainer/UserProfileVBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+texture_normal = ExtResource("12")
+texture_pressed = ExtResource("31")
+texture_hover = SubResource("3")
+
+[node name="TrendingButton" type="TextureButton" parent="UserProfileButtonsScrollContainer/UserProfileVBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+texture_normal = ExtResource("10")
+texture_pressed = ExtResource("30")
+texture_hover = SubResource("4")
+
+[node name="OnlinePlayInvitesButton" type="TextureButton" parent="UserProfileButtonsScrollContainer/UserProfileVBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+texture_normal = ExtResource("7")
+texture_pressed = ExtResource("32")
+texture_hover = SubResource("5")
+
+[node name="FriendSuggestionsButton" type="TextureButton" parent="UserProfileButtonsScrollContainer/UserProfileVBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+texture_normal = ExtResource("8")
+texture_pressed = ExtResource("33")
+texture_hover = SubResource("6")
+
+[node name="AddFriendButton" type="TextureButton" parent="UserProfileButtonsScrollContainer/UserProfileVBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+texture_normal = ExtResource("11")
+texture_pressed = ExtResource("35")
+texture_hover = SubResource("7")
+
+[node name="HSeparator3" type="HSeparator" parent="UserProfileButtonsScrollContainer/UserProfileVBoxContainer"]
+layout_mode = 2
+
+[node name="UserSettingsButton" type="TextureButton" parent="UserProfileButtonsScrollContainer/UserProfileVBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+texture_normal = ExtResource("9")
+texture_pressed = ExtResource("34")
+texture_hover = SubResource("8")
+
+[node name="MoveSelectorAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("14")
+
+[connection signal="pressed" from="Footer/Button" to="." method="_on_Button_pressed"]
+[connection signal="mouse_entered" from="UserProfileButtonsScrollContainer/UserProfileVBoxContainer/ProfileButton" to="." method="_on_ProfileButton_mouse_entered"]
+[connection signal="mouse_entered" from="UserProfileButtonsScrollContainer/UserProfileVBoxContainer/FriendsListButton" to="." method="_on_FriendsListButton_mouse_entered"]
+[connection signal="mouse_entered" from="UserProfileButtonsScrollContainer/UserProfileVBoxContainer/TrendingButton" to="." method="_on_TrendingButton_mouse_entered"]
+[connection signal="mouse_entered" from="UserProfileButtonsScrollContainer/UserProfileVBoxContainer/OnlinePlayInvitesButton" to="." method="_on_OnlinePlayInvitesButton_mouse_entered"]
+[connection signal="mouse_entered" from="UserProfileButtonsScrollContainer/UserProfileVBoxContainer/FriendSuggestionsButton" to="." method="_on_FriendSuggestionsButton_mouse_entered"]
+[connection signal="mouse_entered" from="UserProfileButtonsScrollContainer/UserProfileVBoxContainer/AddFriendButton" to="." method="_on_AddFriendButton_mouse_entered"]
+[connection signal="mouse_entered" from="UserProfileButtonsScrollContainer/UserProfileVBoxContainer/UserSettingsButton" to="." method="_on_UserSettingsButton_mouse_entered"]
