@@ -3,13 +3,12 @@
 PC:</br>
 ![屏幕截图](https://github.com/qizhiwoniu/GamePad/blob/main/screenshot/20251210a.png)</br>
 ## Screenshots
-
-Plugin list：</br>
-插件列表：</br>
-
-Brush Writing:</br>
-刷机：</br>
-
+Settings：</br>
+设置按键：</br>
+![屏幕截图](https://github.com/qizhiwoniu/GamePad/blob/main/screenshot/20251210b.png)</br>
+Control:</br>
+控制：</br>
+![屏幕截图](https://github.com/qizhiwoniu/GamePad/blob/main/screenshot/20251210c.png)</br>
 
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)
 ![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)
