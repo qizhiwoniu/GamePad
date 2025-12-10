@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>banlizai.ico</file>
+        <file>Gamepad.rc</file>
+        <file>image/game-controller-outline.png</file>
+        <file>image/game-controller-outline.svg</file>
+        <file>image/chevron-down-outline.png</file>
+        <file>image/chevron-down-outline.svg</file>
+        <file>image/background.png</file>
+        <file>image/Gamepadblue720480.png</file>
+        <file>image/Gamepadmapping720480.png</file>
+        <file>image/background720480.png</file>
+        <file>image/gameicon.png</file>
+        <file>Changes.txt</file>
+        <file>License.txt</file>
+    </qresource>
+</RCC>
