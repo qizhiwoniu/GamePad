@@ -51,6 +51,12 @@ private slots:
     void on_pushButton_clicked();
 
     void on_pushButton_32_clicked();
+    void setButtonsEnabled(bool enabled);
+    void on_pushButton_20_clicked();
+
+    void on_pushButton_21_clicked();
+
+    void on_actionBug_triggered();
 
 private:
     Ui::MainWindow *ui;

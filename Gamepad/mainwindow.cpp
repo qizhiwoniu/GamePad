@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include "option.h"
 #include "customize.h"
+#include "power.h"
 #include <QLabel>
 #include <QVBoxLayout>
 #include <QWidget>
@@ -108,6 +109,8 @@ MainWindow::MainWindow(QWidget *parent)
     ui->label_8->setOpenExternalLinks(true);
     ui->label_4->setScaledContents(true);
     ui->label_4->setAlignment(Qt::AlignCenter);
+
+    setButtonsEnabled(false);
 
     QList<QPushButton*> btns = {
         ui->pushButton_28,
@@ -472,6 +475,107 @@ void MainWindow::on_pushButton_clicked()
 
 void MainWindow::on_pushButton_32_clicked()
 {
+    statusLabel->setText("信息读取完成");
+    Power* power = new Power(this);
+    power->setAttribute(Qt::WA_DeleteOnClose);
+    Qt::WindowFlags flags = Qt::Window | Qt::WindowContextHelpButtonHint | Qt::WindowCloseButtonHint;
+    power->setWindowFlags(flags);
+    power->setWindowModality(Qt::NonModal);//允许主窗口交互
+    power->setWindowFlag(Qt::WindowDoesNotAcceptFocus, true);
+    power->setFixedSize(400, 300);
+    QPoint parentPos = this->pos(); // 父窗口绝对坐标
+    MainWindow mainWindow;
+    int powerWidth = mainWindow.width(); // 父窗口宽度
+    power->move(parentPos.x() + powerWidth  + 10, parentPos.y());
+    connect(power, &Power::acceptedSignal, this, [this]() {
+        statusLabel->setText("已连接");
+    });
+    connect(power, &Power::rejectedSignal, this, [this]() {
+        statusLabel->setText("已连接");
+    });
+    power->show();
+}
+void MainWindow::setButtonsEnabled(bool enabled)
+{
+    ui->pushButton_32->setEnabled(enabled);
+    ui->pushButton_33->setEnabled(enabled);
+}
 
+void MainWindow::on_pushButton_20_clicked()
+{
+    QString text = ui->pushButton_20->text();
+
+    // ----------------------
+    // 情况 1：当前是“连接手柄”
+    // ----------------------
+    if (text == "连接手柄")
+    {
+        // 先显示正在连接
+        ui->pushButton_20->setText("正在连接ing...");
+        ui->pushButton_20->setEnabled(false);  // 禁用按钮，避免连续点
+
+        // 3 秒后变为断开连接
+        QTimer::singleShot(3000, this, [this]() {
+            ui->pushButton_20->setText("断开连接");
+            statusLabel->setText("已连接");
+            ui->pushButton_20->setEnabled(true);
+            setButtonsEnabled(true);
+        });
+
+        return;
+    }
+
+    // ----------------------
+    // 情况 2：当前是“断开连接”
+    // ----------------------
+    if (text == "断开连接")
+    {
+        ui->pushButton_20->setText("连接手柄");
+        statusLabel->setText("状态");
+        setButtonsEnabled(false);
+        return;
+    }
+}
+void MainWindow::on_pushButton_21_clicked()
+{
+    QString text = ui->pushButton_21->text();
+
+    // ----------------------
+    // 情况 1：当前是“连接手柄”
+    // ----------------------
+    if (text == "连接底座")
+    {
+        // 先显示正在连接
+        ui->pushButton_21->setText("正在连接ing...");
+        ui->pushButton_21->setEnabled(false);  // 禁用按钮，避免连续点
+
+        // 3 秒后变为断开连接
+        QTimer::singleShot(3000, this, [this]() {
+            ui->pushButton_21->setText("断开连接");
+            statusLabel->setText("已连接底座");
+            ui->pushButton_21->setEnabled(true);
+            setButtonsEnabled(true);
+        });
+
+        return;
+    }
+
+    // ----------------------
+    // 情况 2：当前是“断开连接”
+    // ----------------------
+    if (text == "断开连接")
+    {
+        ui->pushButton_21->setText("连接底座");
+        statusLabel->setText("状态");
+        setButtonsEnabled(false);
+        return;
+    }
+}
+
+
+void MainWindow::on_actionBug_triggered()
+{
+    QUrl url("https://github.com/qizhiwoniu/GamePad/issues");
+    QDesktopServices::openUrl(url);
 }
 

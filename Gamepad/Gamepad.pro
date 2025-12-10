@@ -1,4 +1,4 @@
-VERSION = 1.3.5
+VERSION = 1.3.6
 DEFINES += APP_VERSION=\\\"$${VERSION}\\\"
 
 QT       += core gui
@@ -15,17 +15,20 @@ SOURCES += \
     customize.cpp \
     main.cpp \
     mainwindow.cpp \
-    option.cpp
+    option.cpp \
+    power.cpp
 
 HEADERS += \
     customize.h \
     mainwindow.h \
-    option.h
+    option.h \
+    power.h
 
 FORMS += \
     customize.ui \
     mainwindow.ui \
-    option.ui
+    option.ui \
+    power.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
