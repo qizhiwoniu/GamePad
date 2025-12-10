@@ -2,16 +2,14 @@
 游戏手柄测试程序</br>
 PC:</br>
 
-![屏幕截图 2024-07-11 213650](https://github.com/qizhoward/GamePad/assets/12931603/8e6d2818-b9f5-405f-8ab7-f77318faf1b9)</br>
-
 ## Screenshots
-![屏幕截图 2024-06-11 112732](https://github.com/qizhoward/GamePad/assets/12931603/a94ae58b-9128-4d3d-b0a3-90eb1ba86f52)</br>
+
 Plugin list：</br>
 插件列表：</br>
-![屏幕截图 2024-06-01 195645](https://github.com/qizhoward/GamePad/assets/12931603/835116bb-f63c-4400-886d-29d250dc196d)</br>
+
 Brush Writing:</br>
 刷机：</br>
-![屏幕截图 2024-07-11 213251](https://github.com/qizhoward/GamePad/assets/12931603/2ff5b388-3f57-43f5-be78-cf98c77425ad)</br>
+
 
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)
 ![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)
