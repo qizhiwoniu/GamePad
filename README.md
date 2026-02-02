@@ -6,6 +6,7 @@ PC:</br>
 Settings：</br>
 设置按键：</br>
 ![屏幕截图](https://github.com/qizhiwoniu/GamePad/blob/main/screenshot/GamepadGUI.png)</br>
+![屏幕截图](https://github.com/qizhiwoniu/GamePad/blob/main/screenshot/GamepadGUI2.png)</br>
 ![屏幕截图](https://github.com/qizhiwoniu/GamePad/blob/main/screenshot/20251210b.png)</br>
 Control:</br>
 控制：</br>
