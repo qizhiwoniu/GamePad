@@ -7,6 +7,7 @@ Power::Power(QWidget *parent)
     , ui(new Ui::Power)
 {
     ui->setupUi(this);
+    setWindowIcon(QIcon(":/Gamepadicon3.ico"));
 }
 
 Power::~Power()

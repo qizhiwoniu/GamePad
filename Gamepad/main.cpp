@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
     }
     ///////////////////////////////////系统托盘图标////////////////////////////////////////
     QSystemTrayIcon *trayIcon = new QSystemTrayIcon(&w);
-    QIcon icon(":/banlizai.ico"); // 替换为您的图标路径
+    QIcon icon(":/Gamepadicon3.ico"); // 替换为您的图标路径
     trayIcon->setIcon(icon);
     trayIcon->setToolTip("Gamepad");
     trayIcon->setVisible(true);

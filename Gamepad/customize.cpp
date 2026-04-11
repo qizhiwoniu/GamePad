@@ -6,7 +6,7 @@ Customize::Customize(QWidget *parent)
     , ui(new Ui::Customize)
 {
     ui->setupUi(this);
-    setWindowIcon(QIcon(":/banlizai.ico"));
+    setWindowIcon(QIcon(":/Gamepadicon3.ico"));
 }
 
 Customize::~Customize()

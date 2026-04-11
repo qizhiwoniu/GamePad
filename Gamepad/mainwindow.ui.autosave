@@ -810,17 +810,9 @@ menu</string>
     <addaction name="actionBug"/>
     <addaction name="actionCHM"/>
    </widget>
-   <widget class="QMenu" name="menuFlash">
-    <property name="title">
-     <string>Flash(&amp;F)</string>
-    </property>
-    <addaction name="actionBrush"/>
-    <addaction name="actionPower_INFO"/>
-   </widget>
    <addaction name="menuFile_F"/>
    <addaction name="menuEdit_E"/>
    <addaction name="menuTool_T"/>
-   <addaction name="menuFlash"/>
    <addaction name="menuAddin_A"/>
    <addaction name="menuHelp_H"/>
   </widget>
@@ -959,16 +951,6 @@ menu</string>
    </property>
    <property name="text">
     <string>Update</string>
-   </property>
-  </action>
-  <action name="actionBrush">
-   <property name="text">
-    <string>Brush Writing</string>
-   </property>
-  </action>
-  <action name="actionPower_INFO">
-   <property name="text">
-    <string>Power INFO</string>
    </property>
   </action>
  </widget>

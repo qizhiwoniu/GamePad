@@ -58,6 +58,9 @@ private slots:
 
     void on_actionBug_triggered();
 
+    void on_actionBrush_triggered();
+    void on_pushButton_33_clicked();
+    void handleBrushAction();
 private:
     Ui::MainWindow *ui;
     QSystemTrayIcon *m_tray = nullptr;

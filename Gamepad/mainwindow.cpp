@@ -3,6 +3,7 @@
 #include "option.h"
 #include "customize.h"
 #include "power.h"
+#include "flash.h"
 #include <QLabel>
 #include <QVBoxLayout>
 #include <QWidget>
@@ -34,7 +35,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     setWindowTitle("Gamepad");
-    setWindowIcon(QIcon("banlizai.ico"));
+    setWindowIcon(QIcon("/Gamepadicon3.ico"));
     setWindowFlag(Qt::WindowMaximizeButtonHint, false);
     setFixedSize(720, 480);
     initStatusBar();
@@ -579,3 +580,22 @@ void MainWindow::on_actionBug_triggered()
     QDesktopServices::openUrl(url);
 }
 
+
+void MainWindow::on_actionBrush_triggered()
+{
+    handleBrushAction();
+}
+void MainWindow::on_pushButton_33_clicked()
+{
+    handleBrushAction();
+}
+void MainWindow::handleBrushAction(){
+    Flash* flash = new Flash(this);
+    flash->setAttribute(Qt::WA_DeleteOnClose);
+    Qt::WindowFlags flags = Qt::Window | Qt::WindowContextHelpButtonHint | Qt::WindowCloseButtonHint;
+    flash->setWindowFlags(flags);
+    flash->setWindowModality(Qt::NonModal);//允许主窗口交互
+    flash->setWindowFlag(Qt::WindowDoesNotAcceptFocus, true);
+    flash->setFixedSize(632, 282);
+    flash->show();
+}

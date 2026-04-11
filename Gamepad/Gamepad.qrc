@@ -1,7 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>banlizai.ico</file>
-        <file>Gamepad.rc</file>
         <file>image/game-controller-outline.png</file>
         <file>image/game-controller-outline.svg</file>
         <file>image/chevron-down-outline.png</file>
@@ -13,5 +11,7 @@
         <file>image/gameicon.png</file>
         <file>Changes.txt</file>
         <file>License.txt</file>
+        <file>Gamepadicon3.ico</file>
+        <file>Gamepadicon3.rc</file>
     </qresource>
 </RCC>

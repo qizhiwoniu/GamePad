@@ -1,4 +1,4 @@
-VERSION = 1.3.6
+VERSION = 1.3.7
 DEFINES += APP_VERSION=\\\"$${VERSION}\\\"
 
 QT       += core gui
@@ -13,6 +13,7 @@ CONFIG += c++17
 
 SOURCES += \
     customize.cpp \
+    flash.cpp \
     main.cpp \
     mainwindow.cpp \
     option.cpp \
@@ -20,12 +21,14 @@ SOURCES += \
 
 HEADERS += \
     customize.h \
+    flash.h \
     mainwindow.h \
     option.h \
     power.h
 
 FORMS += \
     customize.ui \
+    flash.ui \
     mainwindow.ui \
     option.ui \
     power.ui
@@ -37,5 +40,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     Gamepad.qrc
-    RC_ICONS = Gamepad.ico
-    RC_FILE += Gamepad.rc
+    RC_ICONS = Gamepadicon3.ico
+    RC_FILE += Gamepadicon3.rc

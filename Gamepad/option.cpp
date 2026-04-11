@@ -9,7 +9,7 @@ Option::Option(QWidget *parent)
     , ui(new Ui::Option)
 {
     ui->setupUi(this);
-    setWindowIcon(QIcon(":/banlizai.ico"));
+    setWindowIcon(QIcon(":/Gamepadicon3.ico"));
 
     QSettings option("YuPeng", "Gamepad");
     ui->checkBox->setChecked(option.value("checkBox", true).toBool());
