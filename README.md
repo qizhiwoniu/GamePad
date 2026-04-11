@@ -21,6 +21,7 @@ Control:</br>
 
 Picture：</br>
 ![屏幕截图](https://github.com/qizhiwoniu/GamePad/blob/idea/Source/AI%E5%A4%84%E7%90%86.jpeg)</br>
+![屏幕截图](https://github.com/qizhiwoniu/GamePad/blob/main/screenshot/带ui菜单.png)</br>
 
 ## License </br>
 Copyright (C) 2023-2025 LiaoNing Yu Peng. All rights reserved.</br>
