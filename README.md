@@ -5,8 +5,8 @@ AiGamePad</br>
 PC:</br>
 ![屏幕截图](https://github.com/qizhiwoniu/GamePad/blob/main/screenshot/20251210a.png)</br>
 ## Screenshots
-Settings：</br>
-设置按键：</br>
+Display：</br>
+屏幕：</br>
 ![屏幕截图](https://github.com/qizhiwoniu/GamePad/blob/main/screenshot/GamepadGUI.png)</br>
 ![屏幕截图](https://github.com/qizhiwoniu/GamePad/blob/main/screenshot/GamepadGUI2.png)</br>
 ![屏幕截图](https://github.com/qizhiwoniu/GamePad/blob/main/screenshot/20251210b.png)</br>
