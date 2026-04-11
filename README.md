@@ -1,4 +1,6 @@
-# GamePad
+# GamePad</br>
+AiGamePad</br>
+只能手柄：</br>
 游戏手柄测试程序</br>
 PC:</br>
 ![屏幕截图](https://github.com/qizhiwoniu/GamePad/blob/main/screenshot/20251210a.png)</br>
